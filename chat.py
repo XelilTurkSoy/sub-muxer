@@ -1,37 +1,40 @@
-
 class Chat:
 
-    START_TEXT = """This is a Telegram Bot to Mux subtitle into a video
+    START_TEXT = """Esenlikler Sayğılar , Bu  videola  Altyazını Birleştiren , Bir Telegram Botur.
 
-<b>Send me a Telegram file to begin</b>
+<b>Başlamak için bana Bir URL/ Telegram dosyası gönder</b>
 
-/help for more details..
+/help daha fazla ayrıntı için..
 
-Credits :- @mohdsabahat
+♨️ : @DTO_Bots
     """
 
     HELP_USER = "??"
 
-    HELP_TEXT ="""<b>Welcome to the Help Menu</b>
+    HELP_TEXT ="""<b>Yardım Menüsüne Hoş Geldiniz</b>
 
-1.) Send a Video file or url.
-2.) Send a subtitle file (ass or srt)
-3.) Choose you desired type of muxing!
+1.) Bir Video dosyası veya url gönderin.
+2.) Bir altyazı dosyası gönderin (ass veya srt)
+3.) İstediğiniz mux'in türünü seçin!
 
-To give custom name to file send it with url seperated with |
-<i>url|custom_name.mp4</i>
+Dosyaya özel ad vermek için url'yi | ile ayrılmış olarak gönderin.
+<i>url|özel_adı.mp4</i>
 
-<b>Note : </b><i>Please note that only english type fonts are supported in hardmux other scripts will be shown as empty blocks on the video!</i>
+♨️ : @DTO_Bots
+"""
 
-<a href="https://github.com/mohdsabahat/sub-muxer">Repo URL</a>"""
+    NO_AUTH_USER = "Esenlikler , Bu botu kullanma yetkiniz yok.\nBot Yiyesile iletişime geçin!
+♨️ @DTO_Bots
+"
+    DOWNLOAD_SUCCESS = """Dosya başarıyla indirildi!✅
 
-    NO_AUTH_USER = "You are not authorised to use this bot.\nContact the bot owner!"
-    DOWNLOAD_SUCCESS = """File downloaded successfully!
-
-Time taken : {} seconds."""
-    FILE_SIZE_ERROR = "ERROR : Cannot Extract File Size from URL!"
-    MAX_FILE_SIZE = "File size is greater than 2Gb. Which is the limit imposed by telegram!"
-    LONG_CUS_FILENAME = """Filename you provided is greater than 60 characters.
-Please provide a shorter name."""
-    UNSUPPORTED_FORMAT = "ERROR : File format {} Not supported!"
-    CHOOSE_CMD = "Subtitle file downloaded successfully.\nChoose your desired muxing!\n[ /softremove , /softmux , /hardmux ]"
+Geçen süre : {} saniye."""
+    FILE_SIZE_ERROR = "HATA: Dosya Boyutu URL'den Çıkarılamıyor!"
+    MAX_FILE_SIZE = "Dosya boyutu 2Gb'den büyük. Hangi telegramin koyduğu sınır!"
+    LONG_CUS_FILENAME = """Sağladığınız dosya adı 60 karakterden uzun.
+Lütfen daha kısa bir ad Seçin."""
+    UNSUPPORTED_FORMAT = "HATA : Dosya biçimi {} Desteklenmiyor!"
+    CHOOSE_CMD = "Altyazı dosyası başarıyla indirildi.✅\nİstediğiniz mux'i seçin!\n
+/softremove 
+/softmux 
+/hardmux "
