@@ -23,9 +23,9 @@ Dosyaya özel ad vermek için url'yi | ile ayrılmış olarak gönderin.
 ♨️ : @DTO_Bots
 """
 
-    NO_AUTH_USER = "Esenlikler , Bu botu kullanma yetkiniz yok.\nBot Yiyesile iletişime geçin!
+    NO_AUTH_USER = """ Esenlikler , Bu botu kullanma yetkiniz yok.\nBot Yiyesile iletişime geçin!
 ♨️ @DTO_Bots
-"
+"""
     DOWNLOAD_SUCCESS = """Dosya başarıyla indirildi!✅
 
 Geçen süre : {} saniye."""
@@ -33,8 +33,9 @@ Geçen süre : {} saniye."""
     MAX_FILE_SIZE = "Dosya boyutu 2Gb'den büyük. Hangi telegramin koyduğu sınır!"
     LONG_CUS_FILENAME = """Sağladığınız dosya adı 60 karakterden uzun.
 Lütfen daha kısa bir ad Seçin."""
-    UNSUPPORTED_FORMAT = "HATA : Dosya biçimi {} Desteklenmiyor!"
+    UNSUPPORTED_FORMAT = """HATA : Dosya biçimi {} Desteklenmiyor!"
     CHOOSE_CMD = "Altyazı dosyası başarıyla indirildi.✅\nİstediğiniz mux'i seçin!\n
 /softremove 
 /softmux 
-/hardmux "
+/hardmux 
+"""
