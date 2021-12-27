@@ -38,10 +38,10 @@ async def read_stderr(start, msg, process):
                 #Progress bar logic
                 now = time.time()
                 diff = start-now
-                text = 'PROGRESS\n'
-                text += 'Size : {}\n'.format(progress['size'])
-                text += 'Time : {}\n'.format(progress['time'])
-                text += 'Speed : {}\n'.format(progress['speed'])
+                text = 'İLERLEME\n'
+                text += 'Boyut : {}\n'.format(progress['size'])
+                text += 'Süre : {}\n'.format(progress['time'])
+                text += 'Hız : {}\n'.format(progress['speed'])
 
                 if round(diff % 5)==0:
                     try:
