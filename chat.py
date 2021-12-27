@@ -33,8 +33,8 @@ Geçen süre : {} saniye."""
     MAX_FILE_SIZE = "Dosya boyutu 2Gb'den büyük. Hangi telegramin koyduğu sınır!"
     LONG_CUS_FILENAME = """Sağladığınız dosya adı 60 karakterden uzun.
 Lütfen daha kısa bir ad Seçin."""
-    UNSUPPORTED_FORMAT = """HATA : Dosya biçimi {} Desteklenmiyor!"
-    CHOOSE_CMD = "Altyazı dosyası başarıyla indirildi.✅\nİstediğiniz mux'i seçin!\n
+    UNSUPPORTED_FORMAT = """HATA : Dosya biçimi {} Desteklenmiyor!"""
+    CHOOSE_CMD = """Altyazı dosyası başarıyla indirildi.✅\nİstediğiniz mux'i seçin!\n
 /softremove 
 /softmux 
 /hardmux 
